@@ -48,7 +48,8 @@ header {
 }
 
 .name,
-.restaurant {
+.restaurant,
+.delete-btn {
   position: absolute;
   left: 10px;
   padding: 0.25rem 5rem 0.25rem 1rem;
@@ -61,6 +62,14 @@ header {
 
 .restaurant {
   bottom: 20px;
+}
+
+.delete-btn {
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 form {
@@ -100,3 +109,4 @@ form h4 {
   color: white;
   background-color: black;
 }
+
